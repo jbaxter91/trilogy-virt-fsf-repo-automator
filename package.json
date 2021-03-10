@@ -1,0 +1,25 @@
+{
+  "name": "trilogy-repo-auto-mator",
+  "version": "1.0.0",
+  "description": "Tool to help TA's post the solved and unsolved code in the gitlab each week.  The tool will start by asking for the location of your teachers version of the code.  Then the location of the students version to clone to.  It will then create folders inside its output directory that will hold each weeks repos to post in both solved and unsolved.  The script will then open .bash_profile and append new aliases to the top of the file.  These alieses you can use to automatically add, commit, and push the material for both solved and unsolved.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaxter91/trilogy-virt-fsf-repo-automator.git"
+  },
+  "keywords": [
+    "trilogy"
+  ],
+  "author": "John Baxter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbaxter91/trilogy-virt-fsf-repo-automator/issues"
+  },
+  "homepage": "https://github.com/jbaxter91/trilogy-virt-fsf-repo-automator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
